@@ -1,10 +1,11 @@
 import React from "react";
 import { CiMail } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
-import { GoSignIn } from "react-icons/go";
+import { CiLogin } from "react-icons/ci";
 import { useState } from "react";
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
@@ -17,11 +18,12 @@ const Header = () => {
       <div className="bg-secondary flex justify-center  p-4">
         <div className="flex  items-center container  justify-between max-w-[1366px] mx-auto  ">
           <div>
+            <Link to="/">
             <a href="#" className="text-xs font-medium text-white">
               We provide the{" "}
               <span className="text-primary ">best Service & Discounts</span>{" "}
               for you
-            </a>
+            </a></Link>
           </div>
           <div className=" hidden md:flex justify-center items-center gap-2  ">
             <div className="flex gap-2">
@@ -60,9 +62,11 @@ const Header = () => {
           Bombay Taxi Co<span className="text-primary">.</span>
         </a>
         <div className="flex gap-2 items-center uppercase font-bold cursor-pointer hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
-          <GoSignIn className="text-secondary  " />
-          Login
-        </div>
+  <Link to="/about" className="flex items-center text-secondary">
+    <CiLogin />
+    Login
+  </Link>
+</div>
       </div>
       </div>
       </nav>
