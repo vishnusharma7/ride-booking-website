@@ -14,7 +14,7 @@ const About = () => {
             <p>We have a large fleet of company-owned vehicles & our tenant’s vehicles, Which are all highly maintained & with latest features which gives the best experience of the ride to our valuable customers.</p>
             </div>
             <div className="flex justify-center items-end flex-1 rounded-md">
-              <img className="rounded-md" src="src/assets/Image-3.png" alt="" />
+              <img className="rounded-md" src="public/assets/Image-3.png" alt="" />
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex justify-center mb-8">
-        <img className="w-[100%]" src="src/assets/image-4.png" alt="" />
+        <img className="w-[100%]" src="public/assets/image-4.png" alt="" />
       </div>
     </>
   );
