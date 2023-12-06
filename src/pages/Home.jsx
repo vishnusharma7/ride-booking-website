@@ -193,7 +193,7 @@ const Home = () => {
           </div>
           <div className="flex justify-center gap-8 flex-wrap  ">
             <div className="flex-col max-w-[340px] border rounded-lg">
-              <img src="/src/assets/image-1.png" alt="" />
+              <img src="src/assets/image-1.png" alt="" />
               <div className="flex-col gap-1 p-2">
                 <div>Cabs From Agra To</div>
                 <div className="flex justify-between">
@@ -219,7 +219,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex-col max-w-[340px] border rounded-lg">
-              <img src="/src/assets/image-1.png" alt="" />
+              <img src="src/assets/image-1.png" alt="" />
               <div className="flex-col gap-1 p-2">
                 <div>Cabs From Agra To</div>
                 <div className="flex justify-between">
@@ -245,7 +245,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex-col max-w-[340px] border rounded-lg">
-              <img src="/src/assets/image-1.png" alt="" />
+              <img src="src/assets/image-1.png" alt="" />
               <div className="flex-col gap-1 p-2">
                 <div>Cabs From Agra To</div>
                 <div className="flex justify-between">
@@ -271,7 +271,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex-col max-w-[340px] border rounded-lg">
-              <img src="/src/assets/image-1.png" alt="" />
+              <img src="src/assets/image-1.png" alt="" />
               <div className="flex-col gap-1 p-2">
                 <div>Cabs From Agra To</div>
                 <div className="flex justify-between">
@@ -297,7 +297,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex-col max-w-[340px] border rounded-lg">
-              <img src="/src/assets/image-1.png" alt="" />
+              <img src="src/assets/image-1.png" alt="" />
               <div className="flex-col gap-1 p-2">
                 <div>Cabs From Agra To</div>
                 <div className="flex justify-between">
@@ -323,7 +323,7 @@ const Home = () => {
               </div>
             </div>
             <div className="flex-col max-w-[340px] border rounded-lg">
-              <img src="/src/assets/image-1.png" alt="" />
+              <img src="src/assets/image-1.png" alt="" />
               <div className="flex-col gap-1 p-2">
                 <div>Cabs From Agra To</div>
                 <div className="flex justify-between">
